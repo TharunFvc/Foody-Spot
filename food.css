@@ -81,15 +81,56 @@ header nav ul li {
     cursor: pointer;
     
 }
-.revi{
-    color: black;
-}
+.review h2{
+    font-size: 40px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
 
-footer {
-    background-color: #938d8d;
+}
+.row{
+    display:flex;
+    width:100%;
+    padding: 10px 10px;
+    gap: 30px;
+   
+}
+.colums{
+    background-color: #fffafa;
+    border:2px solid black;
+    border-radius: 10px;
+    width: 40%;
+    height: 100px; 
+    scroll-behavior: smooth;
+    font-family:Georgia, 'Times New Roman', Times, serif; 
+    flex:50% 
+}
+.colums h4{
     text-align: center;
-    position: sticky;
-    bottom: 0;
-    width: 100%;
-    padding: 10px 0;
+}
+.colums p{
+    margin-top: -10px;
+    margin-left: 10px;
+}
+/* .foote{
+    color: white;
+    font-size: 30px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    background-color: darkslategray;
+
+} */
+
+.tfooter{
+    
+    display:grid;
+    grid-template-columns:repeat(4,1fr) ;
+    place-items: center;
+    background-color: darkslategray;
+    padding:10px 30px;
+    color: white;
+    font-size: large;
+
+}
+i{
+    color: rgb(215, 107, 202);
 }
